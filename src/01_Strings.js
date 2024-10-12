@@ -1,15 +1,19 @@
-let firstname= 'Erick';
+//Variables y constantes
 
-firstname='Mia';
+let firstname = "Raul";
 
-const lastname = 'Martinez';
+firstname = "Eduardo";
+const lastName= "Garza";
 
-const condition=true;
+const condition = true;
 
 if(condition){
-    const lastname = 'Lucio';
+    const lastname = "GG";
     console.log(lastname);
 }
 
-console.log(`Hola Mundo 
-${firstname} - ${lastname}`); 
+console.log("hola mundo " + firstname + ' ' + lastName);
+
+//template strings
+console.log(`Hola Mundo!!! 
+${firstname} - ${lastName}`);

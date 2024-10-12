@@ -1,9 +1,9 @@
-function obtenerInfo(name = 'Erick', apellido = 'Martinez'){
-    const info = `${name} ${apellido}`
+//Funciones en js
 
-    return info;
+function obtenerInfo(name='Raúl', apellido=''){
+    const info = `${name} ${apellido}`;
+    return info
 }
 
-const info = obtenerInfo('Mia', 'Lucio');
-
+const info = obtenerInfo('Eduardo','Guillén');
 console.log(info);

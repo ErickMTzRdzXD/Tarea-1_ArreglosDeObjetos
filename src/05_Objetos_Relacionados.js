@@ -1,22 +1,24 @@
+//objetos en js
+
 const carro = {
-    id: 1,
-    nombre: 'Lamborghini',
+    id:1,
+    nombre:'Laferrari',
     date: new Date(),
-    marca:{
+    marca: {
         id: 1,
-        nombre: 'Lamborghini',
-        Ubicacion: 'Inglaterra',
+        nombre: 'Ferrari',
+        ubicacion:'Europa',
         age: 100
     },
-    costo: 1000000,
-    saludo: function () {
-        return `Hola ${this.marca.nombre} ${this.nombre}`;
+    costo: 10000000,
+    saludo: function(){
+        return `Hola ${this.marca.nombre} ${this.nombre}`
     }
 }
 
-//carro.nombre = 'Centenario';
-carro.coste = 2500000;
+carro.nombre='F40'
+carro.costo = 15000000
 console.log(carro);
 
 const salu = carro.saludo();
-console.log(salu);
+console.log(salu)
